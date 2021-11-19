@@ -1,0 +1,32 @@
+{
+  "name": "k8ssandra-docs",
+  "version": "0.0.1",
+  "description": "K8ssandra website and technical documentation.",
+  "main": "none.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hugo server --bind 0.0.0.0",
+    "clean:public": "del-cli --force public",
+    "clean:resources": "del-cli --force resources",
+    "clean": "npm run clean:public && npm run clean:resources",
+    "build": "npm run clean && hugo",
+    "deploy:dev": "hugo deploy --target dev --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k8ssandra/k8ssandra-docs.git"
+  },
+  "author": "K8ssandra",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/k8ssandra/k8ssandra-docs/issues"
+  },
+  "homepage": "https://github.com/k8ssandra/k8ssandra-io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "del-cli": "^4.0.1",
+    "hugo-extended": "^0.89.4",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^8.3.1"
+  }
+}
