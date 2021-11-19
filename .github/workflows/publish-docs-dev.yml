@@ -25,5 +25,6 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - run: npm install
-    - run: npm run build
+    - run: npm run clean
+    - run: npm run build:dev
     - run: npm run deploy:dev

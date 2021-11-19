@@ -205,7 +205,7 @@ changefreq = "daily"
 order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
-name = "dev"
+name = "development"
 URL = "gs://docs-dev"
 
 [[deployment.targets]]
