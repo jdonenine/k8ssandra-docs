@@ -114,7 +114,7 @@ github_project_repo = "https://github.com/k8ssandra/k8ssandra"
 github_branch = "main"
 
 # Specify a value here if your content directory is not in your repo's root directory
-github_subdir = "docs"
+#github_subdir = "docs"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "5ac22162b56cc5e0b"
